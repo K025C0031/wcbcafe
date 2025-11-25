@@ -1,6 +1,10 @@
 @charset "utf-8";
 
-
+/* 共通部分
+---------------------------*/
+html {
+  font-size: 100%;
+}
 body {
   font-family: "Bitcount Grid Single", system-ui;
   font-optical-sizing: auto;
@@ -11,4 +15,14 @@ body {
     "CRSV" 0.5,
     "ELSH" 0,
     "ELXP" 0;
+  line-height: 1.7;
+  color: #432;
+}
+
+a {
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
 }
